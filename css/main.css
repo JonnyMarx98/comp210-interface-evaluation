@@ -68,13 +68,13 @@ h1{
   font-weight:bold;
 }
 h2{
-  font-size: 1.4em;
+  font-size: 2.0em;
   padding:4px;
 }
 
 .main-container{
   width:960px;
-  background:#eee;
+  background:#822020;
   margin: 30px auto;
   position: relative;
   overflow: auto;
@@ -83,17 +83,18 @@ h2{
 header{
   width:100%;
   height:100px;
-  background: #aaa;
+  background: #777;
 }
 .content{
   width:100%;
   min-height:400px;
 }
 aside{
-  width:30%;
-  min-height: 300px;
-  float:left;
+  width:20%;
+  min-height: 320px;
+  float:right;
   background:#777;
+  margin: 10px;
 }
 nav ul{
   margin:10px;
@@ -103,7 +104,7 @@ nav ul li{
 }
 nav ul li a{
   display:block;
-  width: 90%;
+  width: 100%;
   height:60px;
   background-color: #222;
   color: #fff;
@@ -113,23 +114,23 @@ nav ul li a{
 }
 nav ul li a.selected{
   text-decoration: underline;
-  background: #888;
+  background: #C30000;
 }
 nav ul li a:hover{
-  background: #888;
+  background: #FF0000;
 }
 section{
-  width:65%;
+  width:75%;
   min-height:300px;
-  background: #555;
-  float: right;
+  background: #777;
+  float: left;
   margin:10px;
 }
 footer{
   clear: both;
   width:100%;
   height:40px;
-  background: #bbb;
+  background: #777;
   position: absolute;
   bottom: 0px;
   padding:5px;
