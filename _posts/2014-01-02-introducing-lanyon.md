@@ -1,4 +1,8 @@
-﻿
+﻿---
+layout: post
+title: Section heading
+---
+
 bla bla bla
 
 ### sub heading
